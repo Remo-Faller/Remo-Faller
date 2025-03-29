@@ -25,4 +25,4 @@ Cześć! Jestem <i>Remo Faller</i>. Tworzę głównie narzędzia, które można 
 </details>
 
 ------
-Edytowany: 16/12/2024
+Edytowany: 29/03/2025
