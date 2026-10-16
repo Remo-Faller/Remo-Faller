@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Remo Faller — Linux, Web, Android</title>
+  <desc id="desc">Animated dark technology banner with glowing lines and the text Remo Faller.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080d18"/><stop offset="55%" stop-color="#111a2e"/><stop offset="100%" stop-color="#07131a"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/><stop offset="50%" stop-color="#38bdf8"/><stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop offset="0%" stop-color="#2563eb" stop-opacity=".28"/><stop offset="100%" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#8ba3c7" stroke-opacity=".09" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="22" fill="url(#grid)"/>
+  <circle cx="920" cy="105" r="250" fill="url(#glow)"><animate attributeName="r" values="210;260;210" dur="8s" repeatCount="indefinite"/></circle>
+  <g fill="none" stroke="url(#line)" stroke-width="2">
+    <path d="M-40 245 C180 180 280 310 510 220 S850 150 1240 215"><animate attributeName="d" values="M-40 245 C180 180 280 310 510 220 S850 150 1240 215;M-40 220 C180 300 300 150 520 235 S900 285 1240 175;M-40 245 C180 180 280 310 510 220 S850 150 1240 215" dur="12s" repeatCount="indefinite"/></path>
+    <path d="M-20 270 C240 205 330 295 560 250 S930 190 1220 255" opacity=".55"><animate attributeName="stroke-opacity" values=".2;.8;.2" dur="5s" repeatCount="indefinite"/></path>
+  </g>
+  <g fill="#38bdf8" opacity=".7">
+    <circle cx="150" cy="72" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="1020" cy="60" r="2"><animate attributeName="opacity" values="1;.2;1" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="245" r="3"><animate attributeName="opacity" values=".2;.9;.2" dur="2.7s" repeatCount="indefinite"/></circle>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="112" fill="#93c5fd" font-size="17" letter-spacing="7">LINUX • WEB • ANDROID</text>
+    <text x="600" y="174" fill="#f8fafc" font-size="54" font-weight="700" letter-spacing="2">REMO FALLER</text>
+    <text x="600" y="214" fill="#cbd5e1" font-size="18">Building practical tools and digital experiences</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="318" rx="21" fill="none" stroke="#7dd3fc" stroke-opacity=".25"/>
+</svg>
